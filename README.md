@@ -1,6 +1,7 @@
 # cxx-case-convert
+<img src="https://ci.appveyor.com/api/projects/status/github/lestahl/cxx-case-convert?branch=master&svg=true" />
 
-cxx-case-convert is a c++ library that converts strings between case types.
+`cxx-case-convert` is a c++ library that converts strings between case types.
 
 # Build it
 You need CMake and a working C++ compiler.
