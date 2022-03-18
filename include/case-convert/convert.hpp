@@ -21,19 +21,7 @@
 
 namespace case_convert {
     using identifier_t = std::vector<std::string>;
-    std::vector<char> grouping_characters = {
-        ',',
-        '/',
-        '-',
-        '_',
-        '\\',
-        '+',
-        '*',
-        '@',
-        '.',
-        ':',
-        ';'
-    };
+    extern std::vector<char> grouping_characters;
 
     identifier_t identifier(std::string str);
 

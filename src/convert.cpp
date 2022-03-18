@@ -21,6 +21,20 @@
 #include <algorithm>
 #include <sstream>
 
+std::vector<char> case_convert::grouping_characters = {
+    ',',
+    '/',
+    '-',
+    '_',
+    '\\',
+    '+',
+    '*',
+    '@',
+    '.',
+    ':',
+    ';'
+};
+
 case_convert::identifier_t case_convert::identifier(std::string str) {
     for(int i=0; i<case_convert::grouping_characters.size(); ++i)
     {
