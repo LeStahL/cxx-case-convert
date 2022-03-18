@@ -1,3 +1,9 @@
+# IDEs trashing stuff into the source dir
+.vscode
+
+# Artifacts
+build
+
 # Prerequisites
 *.d
 
