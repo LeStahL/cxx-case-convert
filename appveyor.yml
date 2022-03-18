@@ -1,0 +1,23 @@
+version: '{build}'
+
+image:
+  - Visual Studio 2013
+  - Visual Studio 2017
+  - Visual Studio 2019
+  - Visual Studio 2022
+
+platform:
+  - Win32
+  - x64
+
+build_script:
+  - mkdir build
+  - cd build
+  - cmake -DCMAKE_GENERATOR_PLATFORM=%PLATFORM% -DCASE_CONVERT_TESTS=ON ..
+  - cmake --build . --config Release -- -m
+  - cd ..
+
+test_script:
+  - cd build
+  - ctest -C Release --rerun-failed --output-on-failure
+  - cd ..
