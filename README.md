@@ -1,5 +1,5 @@
 # cxx-case-convert
-<img src="https://ci.appveyor.com/api/projects/status/github/lestahl/cxx-case-convert?branch=master&svg=true" />
+<img src="https://ci.appveyor.com/api/projects/status/github/lestahl/cxx-case-convert?branch=main&svg=true" />
 
 `cxx-case-convert` is a c++ library that converts strings between case types.
 
