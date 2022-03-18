@@ -21,7 +21,7 @@
 
 namespace case_convert {
     using identifier_t = std::vector<std::string>;
-    const std::vector<char> grouping_characters = {
+    std::vector<char> grouping_characters = {
         ',',
         '/',
         '-',
