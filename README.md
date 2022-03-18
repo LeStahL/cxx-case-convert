@@ -9,6 +9,9 @@ You need CMake and a working C++ compiler.
   supply `-DCASE_CONVERT_TESTS=ON` in the CMake command.
 * Use your favorite make tool to build it, for example `cmake --build . --config Release -- -m` for msvc.
 
+# Test it
+If you decided to test it, run ctest after building, for example with this command: `ctest --C Release`.
+
 # Use it
 ```CXX
 #include <string>
