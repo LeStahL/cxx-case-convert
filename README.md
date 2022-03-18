@@ -14,6 +14,8 @@ You need CMake and a working C++ compiler.
 If you decided to test it, run ctest after building, for example with this command: `ctest --C Release`.
 
 # Use it
+Find an usage example below:
+
 ```CXX
 #include <string>
 #include <iostream>
@@ -35,6 +37,12 @@ int main(int argc, char **args)
 }
 
 ```
+
+By default, group separators are `,`, `/`, `-`, `_`, `\\`, `+`, `*`, `@`, `.`, `:` and `;`. You can add additional group separators with
+```CXX
+    case_convert::grouping_characters.push_back('c');
+```
+before converting.
 
 # License
 cxx-case-convert is (c) 2022 Alexander Kraus <nr4@z10.info> and GPLv3; see LICENSE for details.
