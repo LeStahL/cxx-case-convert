@@ -74,7 +74,7 @@ std::string case_convert::lowercase(char c) {
     return case_convert::lowercase(str);
 }
 
-std::string case_convert::camel(case_convert::identifier_t identifier) {
+std::string case_convert::camel_case(case_convert::identifier_t identifier) {
     if(identifier.size() == 0) {
         return "";
     }
@@ -91,7 +91,7 @@ std::string case_convert::camel(case_convert::identifier_t identifier) {
     return sstream.str();
 }
 
-std::string case_convert::pascal(case_convert::identifier_t identifier) {
+std::string case_convert::pascal_case(case_convert::identifier_t identifier) {
     if(identifier.size() == 0) {
         return "";
     }
@@ -107,7 +107,7 @@ std::string case_convert::pascal(case_convert::identifier_t identifier) {
     return sstream.str();
 }
 
-std::string case_convert::kebap(case_convert::identifier_t identifier) {
+std::string case_convert::kebap_case(case_convert::identifier_t identifier) {
     if(identifier.size() == 0) {
         return "";
     }
@@ -125,7 +125,7 @@ std::string case_convert::kebap(case_convert::identifier_t identifier) {
     return sstream.str();
 }
 
-std::string case_convert::snake(case_convert::identifier_t identifier) {
+std::string case_convert::snake_case(case_convert::identifier_t identifier) {
     if(identifier.size() == 0) {
         return "";
     }
@@ -143,7 +143,7 @@ std::string case_convert::snake(case_convert::identifier_t identifier) {
     return sstream.str();
 }
 
-std::string case_convert::macro(case_convert::identifier_t identifier) {
+std::string case_convert::macro_case(case_convert::identifier_t identifier) {
     if(identifier.size() == 0) {
         return "";
     }

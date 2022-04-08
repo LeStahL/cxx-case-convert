@@ -25,11 +25,11 @@ namespace case_convert {
 
     identifier_t identifier(std::string str);
 
-    std::string camel(identifier_t identifier);
-    std::string pascal(identifier_t identifier);
-    std::string kebap(identifier_t identifier);
-    std::string snake(identifier_t identifier);
-    std::string macro(identifier_t identifier);
+    std::string camel_case(identifier_t identifier);
+    std::string pascal_case(identifier_t identifier);
+    std::string kebap_case(identifier_t identifier);
+    std::string snake_case(identifier_t identifier);
+    std::string macro_case(identifier_t identifier);
 
     std::string uppercase(std::string str);
     std::string lowercase(std::string str);
